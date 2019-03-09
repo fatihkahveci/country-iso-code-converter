@@ -2,7 +2,6 @@ package converter
 
 import (
 	"strings"
-	"unicode"
 )
 
 var countryList2 = map[string]string{
@@ -506,9 +505,9 @@ var countryList3 = map[string]string{
 }
 
 func ConvertIso2To3(isoCode string) string {
-	return countryList2[strings.ToUpperSpecial(unicode.TurkishCase, isoCode)]
+	return countryList2[strings.ToUpper(isoCode)]
 }
 
 func ConvertIso3To2(isoCode string) string {
-	return countryList3[strings.ToUpperSpecial(unicode.TurkishCase, isoCode)]
+	return countryList3[strings.ToUpper(isoCode)]
 }
