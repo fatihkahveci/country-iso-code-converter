@@ -255,6 +255,7 @@ var countryList2 = map[string]string{
 	"YE": "YEM",
 	"ZM": "ZMB",
 	"ZW": "ZWE",
+	"RK": "RKS",
 }
 
 var countryList3 = map[string]string{
@@ -508,6 +509,7 @@ var countryList3 = map[string]string{
 	"YEM": "YE",
 	"ZMB": "ZM",
 	"ZWE": "ZW",
+	"RKS": "RK",
 }
 
 func ConvertIso2To3(isoCode string) string {
